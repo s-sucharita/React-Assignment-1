@@ -1,10 +1,11 @@
 import React from 'react'
 
 function Navbar() {
-    
+   
+
   return (
     <>
-      <nav className='sticky w-full flex items-center justify-around p-4 bg-yellow-700 pt-5'>
+      <nav className='fixed w-full flex items-center justify-around p-4 bg-yellow-700 pt-5'>
         <div className="logo">
             <h1 className='text-white font-bold text-2xl'>✨PAITHRIKA✨</h1>   
         </div>

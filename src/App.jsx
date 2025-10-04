@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/hero';
 import ProfilelCard from './components/ProfileCard';
 import dummyData from './components/products';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -20,8 +21,10 @@ function App() {
           category={user.category}
           rating={user.rating}
           image={user.image}
+          
          />))}
         </div>
+        <Footer />
       </div>
     </>
   );
