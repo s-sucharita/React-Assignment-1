@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/hero';
+import ProfilelCard from './components/ProfileCard';
 
 
 function App() {
@@ -9,7 +10,9 @@ function App() {
     <>
       <div className="App relative w-[100wh] h-[100vh] bg-gray-100">
         <Navbar />
-        <Hero />
+        <Hero /> <br />  <br />
+        <ProfilelCard />
+
       </div>
     </>
   )
