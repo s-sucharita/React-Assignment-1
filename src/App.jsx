@@ -1,12 +1,18 @@
 import React from 'react'
+import './App.css';
+import Navbar from './components/Navbar';
+import Hero from './components/hero';
+
 
 function App() {
   return (
-    <div>
-      
-    </div>
+    <>
+      <div className="App relative w-[100wh] h-[100vh] bg-gray-100">
+        <Navbar />
+        <Hero />
+      </div>
+    </>
   )
 }
 
 export default App
-
