@@ -3,24 +3,24 @@ const Products = [
     id: 1,
     name: "Nakshi Bridal Combo set",
     price: 2399.00,
-    category: "Bridal Set",
+    category: "chain",
     rating: 4,
     image: "public/pictures/nakshi-bridalcombo-2000.webp"
   },
   {
     id: 2,
-    name: "diamond Studs Earrings",
+    name: "Diamond Studs Earrings",
     price: 899.00,
     category: "Earrings",
-    rating: 4,
-    image: "public/pictures/durgavati-bridalset-2500.webp"
+    rating: 5,
+    image: "public/pictures/diamond-studs-earrings.webp"
   },
   {
     id: 3,
   name: "Durgavati Bridal Combo Set",
     price: 2599.00,
-    category: "Bridal Chain Set",
-    rating: 4.2,
+    category: "Chain",
+    rating: 4,
     image: "public/pictures/durgavati-bridalset-2500.webp"
   },
   {
@@ -115,7 +115,7 @@ const Products = [
     id: 15,
     name: "Lakshmi Jhumkas",
     price: 799.00,
-    category: "Chain",
+    category: "Earrings",
     rating: 4,
     image: "public/pictures/lakshmi-jhumkas.webp"
   },

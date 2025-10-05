@@ -1,12 +1,11 @@
-import React from 'react'
+import React, { useState } from "react";
 import Products from './products';
 
 function ProfileCard(props) {
-
-    
+ 
 
 return (
-    <div className="card flex flex-col transform transition duration-300 hover:scale-105 hover:shadow-2xl items-center w-full sm:w-1/2 lg:w-1/3 mb-10 p-4 rounded-xl bg-gray-300 text-center shadow-lg">
+    <div className="card flex flex-col transform transition duration-300 hover:scale-103 hover:shadow-2xl items-center w-full sm:w-1/2 lg:w-1/3 mb-10 p-4 rounded-xl bg-gray-300 text-center shadow-lg">
         <img
             className="card-image mx-auto h-40 w-40 object-cover"
             src={props.image}
@@ -25,4 +24,4 @@ return (
 )
 }
 
-export default ProfileCard
+export default ProfileCard;
