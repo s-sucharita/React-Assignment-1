@@ -11,8 +11,7 @@ function Navbar() {
         </div>
         <ul className="nav-links flex space-x-10">
             <li><a className='text-white' href="#home">Home</a></li>
-            <li><a className='text-white' href="#about">About</a></li>
-            <li><a className='text-white' href="#services">Services</a></li>
+            <li><a className='text-white' href="#filter">Filter</a></li>
             <li><a className='text-white p-4 border-1 rounded-xl' href="#contact">Contact</a></li>
             <li><a className='text-white'>Search</a></li>
         </ul>

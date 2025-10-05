@@ -17,9 +17,8 @@ return (
         <p className="card-category text-md text-gray-500">Category : {props.category}</p>
         <p className="card-rating">Rating : {props.rating}</p>
         <button
-            onClick={() => console.log(product.name)}
-            className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-800 transition"
-          >
+            onClick={() => console.log(props.name, "Added to cart")} // Add your add-to-cart products here
+            className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-800 transition">
             Add to Cart
           </button>
     </div>
