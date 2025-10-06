@@ -44,7 +44,6 @@ function Navbar({ onSearch, onSort, onFilter }) {
           <input
             type="text" className="p-2 rounded bg-amber-50" placeholder="Search here..." onChange={(e) => onSearch(e.target.value)}
           />
-          <button className="ml-2 p-2 bg-green-600 text-white rounded hover:bg-green-800 transition">Search</button>
         </li>
         </ul>
       </nav>
