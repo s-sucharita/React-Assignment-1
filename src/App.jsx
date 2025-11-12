@@ -56,10 +56,9 @@ function App() {
 
       {/* Product Grid */}
       <section className="p-8">
-        <h2 className="text-3xl font-bold text-center text-pink-700 mb-6">
+        <h2 className="text-3xl font-bold text-center text-pink-700 mb-6 font-serif">
           🌸 Our Featured Products 🌸
         </h2>
-
         <div className="flex flex-wrap justify-center gap-8">
           {products.length > 0 ? (
             products.map((user) => (
