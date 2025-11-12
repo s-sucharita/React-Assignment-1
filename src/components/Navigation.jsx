@@ -5,7 +5,7 @@ function Navbar({ onSearch, onSort, onFilter }) {
 
   return (
     <>
-      <nav className='fixed w-full flex items-center justify-around p-4 bg-yellow-700 pt-5'>
+      <nav className='fixed top-0 left-0 w-full flex items-center justify-around p-4 z-50 bg-yellow-700 pt-5'>
         <div className="logo">
             <h1 className='text-white font-bold text-2xl'>✨PAITHRIKA✨</h1>   
         </div>
